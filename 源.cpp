@@ -173,7 +173,48 @@ void reverse(char* left, char* right) {
 
 //————————————————有序的序列合并————————————————————
 //
+//int main() {
+//	int arr1[5]; int arr2[6]; int arr3[5 + 6];
+//	int i = 0;
+//	//输入arr1值
+//	for (i = 0; i < 5; i++)
+//		scanf("%d", &arr1[i]);
+//	//输入arr2值
+//	for ( i = 0; i < 6; i++)
+//		scanf("%d", &arr2[i]);
+//	//合并
+//	int j = 0; int k = 0; int r = 0;
+//	while (j < 5 && k < 6) 
+//	{
+//		if (arr1[j]<arr2[k])
+//		{
+//			arr3[r++] = arr1[j]; j++;
+//		}
+//		else
+//		{
+//			arr3[r++] = arr2[k]; k++;
+//		}
+//	}
+//	if (j < 5)
+//	{
+//		for (; j < 5; j++) 
+//		{
+//			arr3[r++] = arr1[j]; j++;
+//		}
+//	}
+//	else
+//	{
+//		for (; k < 6; k++)
+//		{
+//			arr3[r++] = arr2[k]; k++;
+//		}
+//	}
+//	for(i=0;i<5+6;i++)
+//	{
+//		printf("%d ", arr3[i]);
+//	}
+//	return 0;
+//}
 int main() {
-	
 	return 0;
 }
